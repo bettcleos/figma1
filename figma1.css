@@ -1,3 +1,14 @@
+
+.headline{
+    
+    background: #1C1A19;
+    background-image: url(/images/Illustration-header@2x.png);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: 100%;
+    
+    
+}
 .mail{
     height: 24px;
 width: 24px;
@@ -5,4 +16,97 @@ left: 8px;
 top: 8px;
 border-radius: 0px;
 
+}
+h1{
+    
+    width: 400px;
+    left: 0px;
+    top: 192px;
+    border-radius: nullpx;
+    color: #F55800;
+
+}
+.specialization{
+    color: white;
+}
+p{
+    display: flex;
+    align: left;
+    justify-content: center;
+    width: 300px;
+    color: white;
+    
+}
+.link{
+    display: flex;
+    flex-direction: row;
+    word-spacing: 2px;
+    text-decoration: none;
+    
+}
+.link li {
+    color: white;
+    list-style: none;
+    
+}
+.link li a{
+    color: white;
+    padding-right: 5px;
+}
+.navigation {
+    background: #3E3C3C;
+    color: white;
+    
+ 
+}
+.logo{
+    float: left;
+}
+.social-media{
+    display: flex;
+    
+}
+.accounts li{
+    list-style: none;
+}
+.cards{
+    
+}
+.card1{
+    background-image: url(./images/background1.png);
+    background-repeat: no-repeat;
+}
+.card2{
+    
+    background-repeat: no-repeat;
+    background-image: url(./images/background1.png),linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%);
+
+}
+.card3{
+
+background-repeat: no-repeat;
+background-image: url(./images/background3.png),linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%);
+
+}
+.card4{
+    
+    background-repeat: no-repeat;
+    background-image: url(./images/background1.png), linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 84.18%);
+
+}
+.card5{
+  
+    background-repeat: no-repeat;
+    background-image: url(./images/background2.png), linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%);
+
+}
+.card6{
+    
+    background-repeat: no-repeat;
+    background-image: url(./images/background3.png), linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%);
+
+}
+.btn{
+    background: #F55800;
+    color: white;
 }
